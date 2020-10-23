@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './bootstrap.min.css';
+import Post from './Post';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
         >
           Learn React
         </a>
+      
+        <Footer />
       </header>
     </div>
   );
